@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+.second{
+    padding: 10px;
+}
+img{
+    border: 2px solid;
+}
+label>button{
+    cursor: pointer;
+
+}
+button>a{text-decoration-line: none;
+    color: aqua;
+    background-color: rgb(235, 6, 6);
+    
+    border-color: aqua;
+    border-radius: 10px;
+
+    
+}
+select{
+    cursor: pointer;
+}
+select>option{
+    cursor: pointer;
+}
+
+#inf{
+    cursor: pointer;
+}
+
+nav>ul{
+color: red;
+
+}
+.rom
+{cursor: pointer;
+    color: blueviolet;
+}
+select{
+    border-radius: 5px;
+    border: 0.5px solid aqua;
+    color: aqua;
+    background-color: crimson;
+}
+button{
+    background-color: black;
+    border-width: 0px;
+
+}
+.ab{
+    
+    color:lime;
+}
+h1 ,h2{
+    color:orangered;
+}
