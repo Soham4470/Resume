@@ -5,35 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mei mei's Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
-        <table>
+       <div class="first"> <table>
             <tr>
                 <td><img style="float: left;" width="300" src="mobile.jpeg" alt="mei mei"></td>
-                <td>
+                <td class="second">
                     <h1>Mei mei</h1>
                     <p><i>Founder of coding shuttle & Ex-Software Engineer at amazon</i></p>
                     <p>I ❤️ Web development and Here to guide the Coding Enthusiasts</p>
                     <nav>
-                        <form action="">
-                            <label for="info">navigation:</label>
-                            <select name="nav" id="info">
-                            <option value="contact me">contact me</option>
-                            <option value="Education">Education</option>
-                            <option value="Internships">Internships</option>
-                            <option value="Projects">Projects</option></select>
+                        <form action="" >
+                            <label for="inf">navigation:</label>
+                            <select name="nav" id="inf">
+                            <option value="contact me" class="info">contact me</option>
+                            <option value="Education" class="info">Education</option>
+                            <option value="Internships" class="info">Internships</option>
+                            <option  value="Projects" class="info">Projects</option></select>
                          </form>
                          <p>here you can only select but to jump there you must have add javascript</p>
 
                          <ul id="info">
-                            <li><a href="#education"><i>Education</i></a></li>
-                            <li><a href="#internships"><i>Internships</i></a></li>
-                            <li><a href="#EthereumVoting"><i>Ethereum Voting</i></a></li>
-                            <li><a href="#shuffer"><i>shuffer</i></a></li>
-                            <li><a href="#btth"><i>BTTH</i></a></li>
-                            <li><a href="#contactme"><i>Contact me</i></a></li>
+                            <li><a href="#education"><i class="rom">Education</i></a></li>
+                            <li><a href="#internships"><i class="rom">Internships</i></a></li>
+                            <li><a href="#EthereumVoting"><i class="rom">Ethereum Voting</i></a></li>
+                            <li><a href="#shuffer"><i class="rom">shuffer</i></a></li>
+                            <li><a href="#btth"><i class="rom">BTTH</i></a></li>
+                            <li><a href="#contactme"><i class="rom">Contact me</i></a></li>
                          </ul>
                     </nav>
 
@@ -43,13 +45,13 @@
 
 
             </tr>
-        </table>
+        </table></div>
     </header>
     <main>
         <section id="education">
             <h2>Education</h2>
             <article>
-                <table border="1">
+                <div><table border="1">
                     <tr>
                         <th>Course</th>
                         <th>Institute</th>
@@ -71,7 +73,7 @@
 
 
 
-                </table>
+                </table></div>
             </article>
         </section>
         <section id="internships">
@@ -95,7 +97,7 @@
             <ul>
                 <section id="EthereumVoting">
                     <article>
-                        <li><a target="_blank" href="https://github.com/Anuj-Kumar-Sharma/EthereumVoting">
+                        <li><a class="ab" target="_blank" href="https://github.com/Anuj-Kumar-Sharma/EthereumVoting">
                                 <h3> Ethereum Voting</h3>
                             </a>
                             <ul>
@@ -111,7 +113,7 @@
                 </section>
                 <section id="shuffer">
                     <article>
-                        <li><a target="_blank" href="https://github.com/Anuj-Kumar-Sharma/Shuffler">
+                        <li><a class="ab"  target="_blank" href="https://github.com/Anuj-Kumar-Sharma/Shuffler">
                                 <h3>Shuffer</h3>
                             </a>
                             <ul>
@@ -128,25 +130,18 @@
     </main>
     <!-- Main Section End -->
 
-    <aside>
-
-<video  id="btth" width="275" style="float:right ;" controls src="@All.BTTH S04 E24 (720p).mkv">Semantic tags</video>
-
-
-    </aside>
+    
     <footer id="contactme">
         <section>
 
             <h2 id="contact">Contact Me</h2>
-            <p><b>Email:</b><a target="_blank" href="mailto:meiofficial@gmail.com">meiofficial@gmail.com</a></p>
-            <p><b>Phone no:</b><a target="_blank" href="tel:+917862018811">+917862018811</a></p>
-            <p><b>Github:</b><a target="_blank" href="https://github.com/Anuj-Kumar-Sharma">meiofficial</a></p>
-            <p><a href="about.html" target="_blank">About us</a></p>
+            <p><b>Email:</b><a class="ab" target="_blank" href="mailto:meiofficial@gmail.com">meiofficial@gmail.com</a></p>
+            <p><b>Phone no:</b><a class="ab" target="_blank" href="tel:+917862018811">+917862018811</a></p>
+            <p><b>Github:</b><a class="ab" target="_blank" href="https://github.com/Anuj-Kumar-Sharma">meiofficial</a></p>
+            <p><a href="about.html" class="ab" target="_blank">About us</a></p>
         </section>
-    <a href="#"><strong>Back To Top</strong></a>
+   <button> <a href="#"><strong>Back To Top</strong></a></button>
 
     </footer>
 
 </body>
-
-</html>
